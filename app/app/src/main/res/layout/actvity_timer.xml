@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_basic"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Space
+        android:layout_width="778dp"
+        android:layout_height="84dp" />
+
+    <TextView
+        android:id="@+id/textView_timer"
+        android:layout_width="918dp"
+        android:layout_height="250dp"
+        android:gravity="center"
+        android:text="00 : 00 : 00"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="145sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="390dp"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="257dp"
+            android:layout_height="145dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="164dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="29dp" />
+
+            <Button
+                android:id="@+id/button_stopwatch"
+                android:layout_width="198dp"
+                android:layout_height="80dp"
+                android:background="@drawable/stopwatchbutton1" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="32dp" />
+
+            <Button
+                android:id="@+id/button_start1"
+                android:layout_width="198dp"
+                android:layout_height="50dp"
+                android:background="@drawable/start2" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <Button
+                android:id="@+id/button_stop1"
+                android:layout_width="198dp"
+                android:layout_height="50dp"
+                android:background="@drawable/stopbutton" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <Button
+                android:id="@+id/button_reset1"
+                android:layout_width="198dp"
+                android:layout_height="50dp"
+                android:background="@drawable/reset1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="164dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="29dp" />
+
+            <Button
+                android:id="@+id/button_timer"
+                android:layout_width="198dp"
+                android:layout_height="80dp"
+                android:background="@drawable/timerbutton" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="32dp" />
+
+            <Button
+                android:id="@+id/button_start2"
+                android:layout_width="198dp"
+                android:layout_height="50dp"
+                android:background="@drawable/start2" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <Button
+                android:id="@+id/button_stop2"
+                android:layout_width="198dp"
+                android:layout_height="50dp"
+                android:background="@drawable/stopbutton" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <Button
+                android:id="@+id/button_reset2"
+                android:layout_width="198dp"
+                android:layout_height="50dp"
+                android:background="@drawable/reset1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="285dp"
+            android:layout_height="378dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="74dp" />
+
+            <Button
+                android:id="@+id/button_start"
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:background="@drawable/timer_button" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="13dp" />
+
+            <Button
+                android:id="@+id/button_cook2"
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:background="@drawable/cook_button" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="13dp" />
+
+            <Button
+                android:id="@+id/button_home2"
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:background="@drawable/home_button" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

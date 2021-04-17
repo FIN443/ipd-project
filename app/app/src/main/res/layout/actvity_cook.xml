@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_basic"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="35dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ScrollView
+            android:layout_width="1023dp"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="523dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="29dp" />
+
+                    <FrameLayout
+                        android:layout_width="458dp"
+                        android:layout_height="458dp">
+
+                        <LinearLayout
+                            android:id="@+id/linear1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_gravity="bottom|right"
+                            android:orientation="horizontal">
+
+                            <com.like.LikeButton
+                                android:id="@+id/heart_button1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:scaleX="0.8"
+                                android:scaleY="0.8"
+                                app:icon_size="25dp"
+                                app:icon_type="heart" />
+
+                        </LinearLayout>
+
+                        <ImageButton
+                            android:id="@+id/button_food1"
+                            android:layout_width="458dp"
+                            android:layout_height="458dp"
+                            android:background="@drawable/food5"
+                            android:scaleType="fitXY" />
+
+                    </FrameLayout>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="29dp" />
+
+                    <FrameLayout
+                        android:layout_width="458dp"
+                        android:layout_height="458dp">
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="29dp" />
+
+                        <LinearLayout
+                            android:id="@+id/linear2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_gravity="bottom|right"
+                            android:orientation="horizontal">
+
+                            <com.like.LikeButton
+                                android:id="@+id/heart_button2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:scaleX="0.8"
+                                android:scaleY="0.8"
+                                app:icon_size="25dp"
+                                app:icon_type="heart" />
+
+                        </LinearLayout>
+
+                        <ImageButton
+                            android:id="@+id/button_food3"
+                            android:layout_width="458dp"
+                            android:layout_height="458dp"
+                            android:background="@drawable/food3"
+                            android:scaleType="fitXY" />
+
+                    </FrameLayout>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="29dp" />
+
+                    <FrameLayout
+                        android:layout_width="458dp"
+                        android:layout_height="458dp">
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="29dp" />
+
+                        <LinearLayout
+                            android:id="@+id/linear3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_gravity="bottom|right"
+                            android:orientation="horizontal">
+
+                            <com.like.LikeButton
+                                android:id="@+id/heart_button3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:scaleX="0.8"
+                                android:scaleY="0.8"
+                                app:icon_size="25dp"
+                                app:icon_type="heart" />
+
+                        </LinearLayout>
+
+                        <ImageButton
+                            android:id="@+id/button_food5"
+                            android:layout_width="458dp"
+                            android:layout_height="458dp"
+                            android:background="@drawable/food4"
+                            android:scaleType="fitXY" />
+
+                    </FrameLayout>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="29dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="523dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="29dp" />
+
+                    <FrameLayout
+                        android:layout_width="458dp"
+                        android:layout_height="458dp">
+
+                        <LinearLayout
+                            android:id="@+id/linear4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_gravity="bottom|right"
+                            android:orientation="horizontal">
+
+                            <com.like.LikeButton
+                                android:id="@+id/heart_button4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:scaleX="0.8"
+                                android:scaleY="0.8"
+                                app:icon_size="25dp"
+                                app:icon_type="heart" />
+
+                        </LinearLayout>
+
+                        <ImageButton
+                            android:id="@+id/button_food2"
+                            android:layout_width="458dp"
+                            android:layout_height="458dp"
+                            android:background="@drawable/food1"
+                            android:scaleType="fitXY" />
+                    </FrameLayout>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="29dp" />
+
+                    <FrameLayout
+                        android:layout_width="458dp"
+                        android:layout_height="458dp">
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="29dp" />
+
+                        <LinearLayout
+                            android:id="@+id/linear5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_gravity="bottom|right"
+                            android:orientation="horizontal">
+
+                            <Space
+                                android:layout_width="match_parent"
+                                android:layout_height="29dp"
+                                android:layout_weight="1" />
+
+                            <com.like.LikeButton
+                                android:id="@+id/heart_button5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:scaleX="0.8"
+                                android:scaleY="0.8"
+                                app:icon_size="25dp"
+                                app:icon_type="heart" />
+
+                        </LinearLayout>
+
+                        <ImageButton
+                            android:id="@+id/button_food4"
+                            android:layout_width="458dp"
+                            android:layout_height="458dp"
+                            android:background="@drawable/food2"
+                            android:scaleType="fitXY" />
+
+                    </FrameLayout>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="29dp" />
+
+                    <FrameLayout
+                        android:layout_width="458dp"
+                        android:layout_height="458dp">
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="29dp" />
+
+                        <LinearLayout
+                            android:id="@+id/linear6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_gravity="bottom|right"
+                            android:orientation="horizontal">
+
+                            <com.like.LikeButton
+                                android:id="@+id/heart_button6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:scaleX="0.8"
+                                android:scaleY="0.8"
+                                app:icon_size="25dp"
+                                app:icon_type="heart" />
+
+                        </LinearLayout>
+
+                        <ImageButton
+                            android:id="@+id/button_food6"
+                            android:layout_width="458dp"
+                            android:layout_height="458dp"
+                            android:background="@drawable/food6"
+                            android:scaleType="fitXY" />
+
+                    </FrameLayout>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="29dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="28dp" />
+
+            <Button
+                android:id="@+id/button_category1"
+                android:layout_width="201dp"
+                android:layout_height="62dp"
+                android:layout_gravity="right"
+                android:background="@drawable/category_1" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <Button
+                android:id="@+id/button_category2"
+                android:layout_width="201dp"
+                android:layout_height="62dp"
+                android:layout_gravity="right"
+                android:background="@drawable/category_2" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <Button
+                android:id="@+id/button_category3"
+                android:layout_width="201dp"
+                android:layout_height="62dp"
+                android:layout_gravity="right"
+                android:background="@drawable/category_3" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <Button
+                android:id="@+id/button_category4"
+                android:layout_width="201dp"
+                android:layout_height="62dp"
+                android:layout_gravity="right"
+                android:background="@drawable/category_4" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <Button
+                android:id="@+id/button_category5"
+                android:layout_width="201dp"
+                android:layout_height="62dp"
+                android:layout_gravity="right"
+                android:background="@drawable/category_5" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="58dp" />
+
+            <LinearLayout
+                android:layout_width="196dp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button_timer3"
+                    android:layout_width="80dp"
+                    android:layout_height="75dp"
+                    android:layout_gravity="right"
+                    android:background="@drawable/timer_button" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <Button
+                    android:id="@+id/button_cook3"
+                    android:layout_width="75dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="right"
+                    android:background="@drawable/cook_button" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <Button
+                    android:id="@+id/button_home3"
+                    android:layout_width="75dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/home_button" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
